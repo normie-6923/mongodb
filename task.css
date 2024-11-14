@@ -1,0 +1,123 @@
+body{  height: 95vh;
+    width: 98vw;
+    background-color: rgb(41, 35, 44);
+    font-family: Poppins;
+    color: rgb(231, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+h1{
+    
+    font-size: 50px;
+}
+.two{
+position: relative;
+bottom: 100px;
+left: 100px;
+text-shadow: -10px -10px 20px rgba(0, 0, 0, 100);
+}
+
+#tasktext{
+height: 30px;
+width: 50vw;
+border: 0.5px solid black;
+border-radius: 5px;
+font-family: Poppins;
+background-color: transparent;
+outline: none;
+color: white;
+
+}
+#taskadder{
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(48, 127, 239);
+    border:none;
+    font-family: Poppins;
+    cursor: pointer;
+
+}
+.texts{
+    position: relative;
+    bottom: 100px;
+}
+.tasks{
+    width: 80vw;
+    margin: 20px;
+    
+    color: whitesmoke;
+    
+}
+.tasksbox {
+    position: relative;
+    bottom: 70px;
+    height: 50vh;
+    width: 90vw;
+    border-radius: 40px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-color: black transparent; /* Sets scrollbar thumb color and track color */
+}
+
+/* For webkit browsers (e.g., Chrome, Safari) */
+.tasksbox::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+.tasksbox::-webkit-scrollbar-thumb {
+    background-color: black; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded edges for the scrollbar thumb */
+}
+
+.tasksbox::-webkit-scrollbar-track {
+    background: transparent; /* Track color behind the scrollbar thumb */
+}
+.taskitem{
+    color: whitesmoke;
+    height: 50px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.taskdelbutton{
+background-color: transparent;
+border: none;
+font-size: 25px;
+cursor: pointer;
+
+
+}
+
+
+.taskspan{
+    color: whitesmoke;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+    height: 30px;
+    width: 80vw;
+  
+    
+}
+.completed{
+text-decoration: line-through;
+text-decoration: line-through red;
+}
+
+#clearitem{
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border:none;
+    font-family: Poppins;
+    cursor: pointer;
+}
